@@ -37,7 +37,7 @@ defmodule Pow.MixProject do
       {:phoenix, ">= 1.3.0 and < 1.8.0"},
       {:phoenix_html, ">= 2.0.0 and < 5.0.0"},
       {:plug, ">= 1.5.0 and < 2.0.0", optional: true},
-      {:phoenix_live_view, ">= 0.18.0", optional: true},
+      {:phoenix_live_view, "~> 0.18", optional: true},
 
       {:phoenix_ecto, "~> 4.3", only: [:dev, :test]},
       {:credo, "~> 1.5", only: [:dev, :test]},
